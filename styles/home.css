@@ -68,23 +68,9 @@
     border: 3px solid #7EDACE;
 }
 
-#container p {
-    font-size: 3rem;
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    -webkit-text-stroke: 0.1px;
-    -webkit-text-stroke-color: black;
-    color: #fff;
-    position: relative;
-    
-}
-
-#itens {
+#checkbox {
     display: none;
-}
+    }
 
 @media screen and (max-width:832px) {
     #container {
