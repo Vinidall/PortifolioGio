@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#name {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+}
+#logo-img {
+    width: 280px;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 3px solid #7EDACE;
+    width: 100vw;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    justify-content: space-evenly;
+    
+}
+
+#menu li p{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#container #img1 img{
+    width: 510px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#img1 {
+    margin-right: 7rem;
+}
+
+#img1 img {
+    border: 3px solid #7EDACE;
+}
+span#menuhambur {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100vw;
+    }
+
+    #img1 {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    #img1 img {
+        width: 500px;
+    }
+
+    #img2 {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    #img2 img {
+        width: 500px;
+    }
+    span#menuhambur {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:494px) {
+    #container #img1 img{
+        width: 300px;
+    }
+
+    #container #img2 img {
+        width: 300px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #logo img{
+        width: 200px;
+    }
+    #name {
+        font-size: 30px;
+    }
+    #menu ul li p { 
+        font-size: 20px;
+    }
+    span#menuhambur {
+        display: flex;
+        width: 100vw;
+        font-size: 50px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 30px;
+        color: black;
+        cursor: pointer;
+    }
+}
+
