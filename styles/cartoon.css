@@ -55,6 +55,16 @@
     color: black;
 }
 
+#menu li p:hover {
+    color: white;
+    background-color: rgb(255, 192, 231);
+    padding: 3px;
+    border-radius: 12px;
+    border: 1px solid #7EDACE;
+    transition-duration: .3s;
+}
+
+
 nav {
     padding-top: 2rem;
     background-color: #7EDACE;
@@ -86,6 +96,35 @@ nav a:hover {
     padding: 10px;
     border-radius: 20%;
     transition-duration: .5s;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#imgcontainer {
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    margin-top: 3rem;
+    border-radius: 12px;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#imagens a {
+    margin: 1rem;
+}
+
+#imagens img {
+    width: 200px;
+    border-radius: 12px;
+    border: 2px solid #7EDACE;
 }
 
 #checkbox {

@@ -1,7 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
 }
 
 #logo{
@@ -47,7 +51,17 @@
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
+    transition-duration: .3s;
     
+}
+
+#menu li p:hover {
+    color: white;
+    background-color: rgb(255, 192, 231);
+    padding: 3px;
+    border-radius: 12px;
+    border: 1px solid #7EDACE;
+    transition-duration: .3s;
 }
 
 #menu li a {
@@ -58,8 +72,8 @@
 nav {
     padding-top: 2rem;
     background-color: #7EDACE;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
-    height: 5vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    height: auto;
 }
 
 nav ul{
@@ -67,6 +81,7 @@ nav ul{
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    margin-bottom: 2rem;
 
 }
 
@@ -74,23 +89,91 @@ nav ul li {
     color: black;
     font-family: "League Spartan", sans-serif;
     font-size: 25px;
+    
 }
 
 nav ul a  {
     text-decoration: none;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 
 nav a:hover {
     background-color: rgb(255, 192, 231);
-    padding: 10px;
-    border-radius: 20%;
-    transition-duration: .5s;
+    padding: 4px;
+    border-radius: 12px;
+    border:1px solid rgba(88, 88, 88, 0.596);
+    transition-duration: .3s;
 }
 
 #checkbox {
     display: none;
     }
+
+#container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#imgcontainer {
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    margin-top: 3rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+#imagens a {
+    margin: 1rem;
+}
+
+#imagens img {
+    width: 250px;
+    border-radius: 12px;
+    border: 2px solid #7EDACE;
+}
+
+h2 {
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    border-bottom: 1px solid #7EDACE;
+    padding: 0.8rem 0px;
+}
+
+#novidades {
+    display: flex;
+    justify-content: center;
+}
+
+#novidades a {
+    margin: 2rem;
+}
+
+#novidades img {
+    width: 200px;
+    border-radius: 12px;
+    border: 2px solid #7EDACE;
+}
+
+@media screen and (max-width:1190px) {
+    #imagens img {
+        width: 200px;
+    }
+
+    #novidades {
+        flex-wrap: wrap;
+    }
+}
 
 @media screen and (max-width:832px) {
     #container {
@@ -141,14 +224,16 @@ nav ul {
     flex-wrap:wrap ;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0.8rem;
 }
 
 nav ul a li {
-    margin-top: 15px;
+    margin-top: 0.8rem;
+    border-bottom: 1px solid #ffffffb4;
 }
 
-nav ul :last-child li {
-    margin-bottom: 15px;
+#imagens {
+    width: 90vw;
 }
    #checkbox {
     display: none;
@@ -210,7 +295,7 @@ nav ul :last-child li {
 
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:620px) {    
     #logo img {
         width: 200px;
     }
@@ -252,6 +337,30 @@ nav ul :last-child li {
         font-size: 30px;
         border-bottom: 2px solid #7EDACE;
         padding-top: 1px;
+    }
+
+    #imagens {
+        width: 100vw;
+    }
+
+    #imagens a {
+        margin: 0.5px;
+    }
+
+    #imagens img {
+        width: 170px;
+    }
+
+    #novidades {
+        width: 100vw;
+    }
+
+    #novidades a {
+        margin: 0.5px;
+    }
+
+    #novidades img {
+        width: 170px;
     }
 
     #hambur-menu {

@@ -55,6 +55,16 @@
     color: black;
 }
 
+#menu li p:hover {
+    color: white;
+    background-color: rgb(255, 192, 231);
+    padding: 3px;
+    border-radius: 12px;
+    border: 1px solid #7EDACE;
+    transition-duration: .3s;
+}
+
+
 #page {
     justify-content: center;
 }
