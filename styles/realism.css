@@ -1,7 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
 }
 
 #logo{
@@ -47,12 +51,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
+    transition-duration: .3s;
     
-}
-
-#menu li a {
-    text-decoration: none;
-    color: black;
 }
 
 #menu li p:hover {
@@ -64,12 +64,16 @@
     transition-duration: .3s;
 }
 
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
 
 nav {
     padding-top: 2rem;
     background-color: #7EDACE;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
-    height: 5vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    height: auto;
 }
 
 nav ul{
@@ -77,6 +81,7 @@ nav ul{
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    margin-bottom: 2rem;
 
 }
 
@@ -84,22 +89,28 @@ nav ul li {
     color: black;
     font-family: "League Spartan", sans-serif;
     font-size: 25px;
+    
 }
 
 nav ul a  {
     text-decoration: none;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 
 nav a:hover {
     background-color: rgb(255, 192, 231);
-    padding: 10px;
-    border-radius: 20%;
-    transition-duration: .5s;
+    padding: 4px;
+    border-radius: 12px;
+    border:1px solid rgba(88, 88, 88, 0.596);
+    transition-duration: .3s;
 }
 
+#checkbox {
+    display: none;
+    }
+
 #container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -109,12 +120,16 @@ nav a:hover {
     width: 70vw;
     margin-top: 3rem;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #imagens {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 70%;
 }
 
 #imagens a {
@@ -122,15 +137,23 @@ nav a:hover {
 }
 
 #imagens img {
-    width: 200px;
+    width: 250px;
     border-radius: 12px;
     border: 2px solid #7EDACE;
 }
 
-
-#checkbox {
-    display: none;
+h2 {
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    border-bottom: 1px solid #7EDACE;
+    padding: 0.8rem 0px;
+}
+@media screen and (max-width:1190px) {
+    #imagens img {
+        width: 200px;
     }
+}
 
 @media screen and (max-width:832px) {
     #container {
@@ -181,14 +204,16 @@ nav ul {
     flex-wrap:wrap ;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0.8rem;
 }
 
 nav ul a li {
-    margin-top: 15px;
+    margin-top: 0.8rem;
+    border-bottom: 1px solid #ffffffb4;
 }
 
-nav ul :last-child li {
-    margin-bottom: 15px;
+#imagens {
+    width: 90vw;
 }
    #checkbox {
     display: none;
@@ -250,7 +275,7 @@ nav ul :last-child li {
 
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:620px) {    
     #logo img {
         width: 200px;
     }
@@ -292,6 +317,18 @@ nav ul :last-child li {
         font-size: 30px;
         border-bottom: 2px solid #7EDACE;
         padding-top: 1px;
+    }
+
+    #imagens {
+        width: 100vw;
+    }
+
+    #imagens a {
+        margin: 0.5px;
+    }
+
+    #imagens img {
+        width: 170px;
     }
 
     #hambur-menu {
@@ -356,5 +393,11 @@ nav ul :last-child li {
     #checkbox:checked+.toggle {
         transition-duration: .5s;
         transform: rotate(180deg);
+    }
+}
+
+@media screen and (max-width:320px) {
+    #menu ul {
+        flex-direction: column;
     }
 }
