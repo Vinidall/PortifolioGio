@@ -65,12 +65,19 @@
     transition-duration: .3s;
 }
 
+.sobre {
+    margin: 2rem 0px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 2.5rem;
+}
 
 #container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    
+    text-align: center;
+    align-content: center;
 }
 
 #contimg {
@@ -89,7 +96,7 @@
     text-decoration: none;
 }
 
-#container img {
+#contimg img {
     width: 250px;
     border-radius: 16px;
     border: 1px solid #7EDACE;
@@ -247,6 +254,12 @@ header {
     font-size: 30px;
     border-bottom: 2px solid #7EDACE;
     padding-top: 1px;
+}
+
+.sobre {
+    font-size: 2.5rem;
+    text-align: center;
+    
 }
 #hambur-menu {
     width: 100%;
