@@ -89,11 +89,10 @@
     margin: 2rem;
 }
 
-#contimg a {
-    border: 1px solid rgba(0, 0, 0, .1);
+#contimg a { 
+    border: 1px solid #74747465;
     border-radius: 16px;
-    margin: 1rem;
-    text-decoration: none;
+    margin: 4px 4px;
 }
 
 #contimg img {

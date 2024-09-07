@@ -117,7 +117,7 @@ nav a:hover {
 
 #imgcontainer {
     background-color: rgb(255, 255, 255);
-    width: 70vw;
+    width: 90vw;
     margin-top: 3rem;
     border-radius: 12px;
     display: flex;
@@ -130,6 +130,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     width: 70%;
+    
 }
 
 #imagens a {
@@ -140,6 +141,7 @@ nav a:hover {
     width: 250px;
     border-radius: 12px;
     border: 2px solid #7EDACE;
+    
 }
 
 h2 {

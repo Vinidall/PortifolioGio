@@ -85,6 +85,160 @@
     display: none;
     }
 
+.textAds {
+    position: relative;
+}
+
+#adText {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+}
+.textMarca {
+    position: relative;
+}
+
+#textMarca{
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;   
+    text-wrap: nowrap;
+}
+
+.textEco {
+    position: relative;
+}
+#textEco {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+
+.textBottons{
+    position: relative;
+}
+
+#textBottons {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+
+.textCadernos{
+    position: relative;
+}
+
+#textCadernos{
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+.textQuadros {
+    position: relative;
+}
+#textQuadros {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+.textChaveiros {
+    position: relative;
+}
+#textChaveiros {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+
+.textCalendarios {
+    position: relative;
+}
+
+#textCalendarios {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
+.textPrints {
+    position: relative;
+}
+
+#textPrints {
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.4rem;
+    font-family: "Baloo 2", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.9px 0.9px rgb(0, 0, 0);
+    text-align: center;  
+}
 @media screen and (max-width:1024px) {
     #container {
         display: flex;
