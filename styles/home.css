@@ -1,7 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 #logo{
@@ -48,7 +47,6 @@
     font-style: normal;
     font-size: 3rem;
     transition-duration: .3s;
-    
 }
 
 #menu li a {
